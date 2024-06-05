@@ -1,13 +1,5 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+body {
     overflow: hidden;
-}
-
-.video {
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    margin: 0;
+    /* filter: hue-rotate(2deg); */
 }
