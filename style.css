@@ -1,7 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 .video {
-    width: 1920px;
-    aspect-ratio: auto 1920 / 1080;
-    height: 1080px;
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
