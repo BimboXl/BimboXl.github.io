@@ -1,1 +1,8 @@
-{\rtf1}
+.video {
+    width: 1920px;
+    aspect-ratio: auto 1920 / 1080;
+    height: 1080px;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
