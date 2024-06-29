@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className='header'>
       <div className='header-icon'>
-          <img src='/path/to/your/icon.png' alt='Icon' />
+          {/* <img src='./icon.pngd' alt='Icon' /> */}
           <span className='header-name'>Jorden Alexander</span>
         </div>
         <nav className='header-pages'>

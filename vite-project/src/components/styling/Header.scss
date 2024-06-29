@@ -10,9 +10,12 @@
   color: white;
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
+.header-icon{
+    // width: 100px;
+    // height: 100px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    position: relative;
 }
 
 .header-pages {
@@ -22,8 +25,9 @@
 
 .header-pages a {
   position: relative;
+  text-shadow: 0 3px 3px black;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
   padding: 10px;
   transition: color 0.4s ease, opacity 0.4s ease; /* Added color transition */
