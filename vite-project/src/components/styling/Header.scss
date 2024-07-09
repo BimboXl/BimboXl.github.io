@@ -3,7 +3,7 @@
 .header {
   font-family: 'Roboto', sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 20px;
   text-transform: uppercase;
@@ -11,8 +11,6 @@
 }
 
 .header-icon{
-    // width: 100px;
-    // height: 100px;
     text-transform: capitalize;
     text-decoration: underline;
     position: relative;
@@ -25,7 +23,7 @@
 
 .header-pages a {
   position: relative;
-  text-shadow: 0 3px 3px black;
+  text-shadow: 0 3px 3px cadetblue;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
@@ -40,7 +38,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #4CAF50;
+  background-color: cadetblue;
   transition: width 0.4s ease-out, left 0.3s ease-out;
 }
 
@@ -50,7 +48,7 @@
 }
 
 .header-pages a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 0 0 10px #ffffff;
   opacity: 1.0;
 }

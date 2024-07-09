@@ -9,8 +9,8 @@ const VantaBackground = () => {
   useEffect(() => {
     const vantaEffect = CELLS({
       el: vantaRef.current,
-      color1: '#2a5c2a',
-      color2: '#4da44d',
+      color1: '#666',
+      color2: '#000',
       mouseControls: true,
       touchControls: true,
       gyroControls: true,
