@@ -5,7 +5,7 @@ const Lockpick: React.FC = () => {
   return (
     <div className="lockpick-container">
       <iframe
-        src="src\components\pages\lockpick\lockpick.html"
+        src="./lockpick/lockpick.html"
         className="lockpick-iframe"
         title="Lockpick Minigame"
       />
